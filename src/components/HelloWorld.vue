@@ -19,7 +19,7 @@ export default defineComponent({
   setup() {
     const count = ref(0)
     const increase = () => {
-      count.value++
+      count.value++;
     }
 
     return {
